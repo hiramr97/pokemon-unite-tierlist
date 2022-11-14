@@ -4,10 +4,10 @@ import pokemon from "/home/hiramr97/sei/projects/pokemon-unite-tierlist/tier-lis
 
 const TopLane = () => {
   return (
-    <div>
+    <div className="backgroundColor">
       <h1 className="Lane">Top Lane</h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">S</h1>
+      <p className="letterTier">S</p>
         <Link>
           <img className="Pokemon" src={pokemon[2].image} />
         </Link>
@@ -28,7 +28,7 @@ const TopLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">S</h1>
+      <p className="letterTier">A</p>
         <Link>
           <img className="Pokemon" src={pokemon[1].image} />
         </Link>
@@ -79,7 +79,7 @@ const TopLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-        B
+      <p className="letterTier">B</p>
         <Link>
           <img className="Pokemon" src={pokemon[3].image} />
         </Link>
@@ -115,7 +115,7 @@ const TopLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-        C
+      <p className="letterTier">C</p>
         <Link>
           <img className="Pokemon" src={pokemon[6].image} />
         </Link>
@@ -139,7 +139,7 @@ const TopLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-        D
+      <p className="letterTier">D</p>
         <Link>
           <img className="Pokemon" src={pokemon[0].image} />
         </Link>

@@ -11,6 +11,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  /* border-bottom: solid black 2px; */
+  margin-bottom: 0;
 }
 header {
   text-align: center;
@@ -31,7 +33,7 @@ a {
 }
 .Logo {
   width: 300px;
-  border: white 5px solid;
+  /* border: white 5px solid; */
   margin-top: 20px;
 }
 .Logo-Link {
@@ -42,4 +44,10 @@ a {
 }
 .Lane {
   text-align: center;
+}
+.letterTier {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.backgroundColor {
 }

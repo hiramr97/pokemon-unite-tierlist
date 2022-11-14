@@ -7,7 +7,7 @@ const CenterLane = () => {
     <div>
       <h1 className="Lane">Center Lane</h1>
       <h1 className="Container-Pokemon-Tier">
-        <h1 className="letterTier">S</h1>
+        <p className="letterTier">S</p>
         <Link>
           <img className="Pokemon" src={pokemon[14].image} />
         </Link>
@@ -28,7 +28,7 @@ const CenterLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">A</h1>
+      <p className="letterTier">A</p>
         <Link>
           <img className="Pokemon" src={pokemon[0].image} />
         </Link>
@@ -58,7 +58,7 @@ const CenterLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">B</h1>
+      <p className="letterTier">B</p>
         <Link>
           <img className="Pokemon" src={pokemon[4].image} />
         </Link>
@@ -106,7 +106,7 @@ const CenterLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">C</h1>
+      <p className="letterTier">C</p>
         <Link>
           <img className="Pokemon" src={pokemon[2].image} />
         </Link>
@@ -124,7 +124,7 @@ const CenterLane = () => {
         </Link>
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <h1 className="letterTier">D</h1>
+      <p className="letterTier">D</p>
         <Link>
           <img className="Pokemon" src={pokemon[5].image} />
         </Link>
