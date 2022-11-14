@@ -1,0 +1,45 @@
+.Pokemon {
+  height: 125px;
+  width: 125px;
+}
+.Container-Pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Container-Pokemon-Tier {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+header {
+  text-align: center;
+  background: url("https://images2.alphacoders.com/116/thumb-1920-1160159.png");
+  color: white;
+  background-size: cover;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+a {
+  color: white;
+}
+.Logo {
+  width: 300px;
+  border: white 5px solid;
+  margin-top: 20px;
+}
+.Logo-Link {
+  cursor: pointer;
+}
+.Tier {
+  text-align: center;
+}
+.Lane {
+  text-align: center;
+}

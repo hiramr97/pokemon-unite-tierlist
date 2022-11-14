@@ -1,0 +1,10 @@
+.Pokemon {
+    height: 125px;
+    width: 125px;
+}
+.Container-Pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
