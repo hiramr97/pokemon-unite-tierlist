@@ -11,15 +11,12 @@ import data from "./Components/Data/data.json";
 import pokemon from "./Components/Data/pictures.json";
 
 function App() {
-  const handleClick = (e) => {
-    console.log(e.target)
-  }
   return (
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage handleClick={handleClick} pokemon={pokemon}/>} />
-        <Route path="/top-lane" element={<TopLane handleClick={handleClick} pokemon={pokemon} />} />
+        <Route path="/" element={<Homepage pokemon={pokemon}/>} />
+        <Route path="/top-lane" element={<TopLane pokemon={pokemon} />} />
         <Route path="/center-lane" element={<CenterLane pokemon={pokemon}/>}/>
         <Route path="/bottom-lane" element={<BottomLane pokemon={pokemon}/>}/>
         <Route path="/description/:id" element={<Description/>}/>
