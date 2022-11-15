@@ -4,13 +4,13 @@ import Lane from "./Lane";
 import Build from "./Build";
 import Build1 from "./Build1";
 import Build2 from "./Build2";
-import Name from "../Data/pictures.json";
+import pictures from "../Data/pictures.json";
 import { useParams } from "react-router-dom";
 
 const Description = () => {
   const { id } = useParams();
   const newData = Object.values(data);
-  console.log(newData[2]);
+  const pictureData = data.id
   if (newData[2] === id) {
     return (
       <div>
@@ -19,14 +19,16 @@ const Description = () => {
         <h3 className="descriptionStyling">Role</h3>
         <h3 className="descriptionStyling">{data.tags.role}</h3>
         <h3 className="descriptionStyling">
-          Difficulty {data.tags.difficulty}
+          Difficulty
         </h3>
+        <h3 className="descriptionStyling">{data.tags.difficulty}</h3>
         <h3 className="descriptionStyling">Recommended Build</h3>
         <div className="Container-Build">
           <Build />
           <Build1 />
           <Build2 />
         </div>
+        <img className="DescriptionPokemon" src={pictures[pictureData].image}/>
       </div>
     );
   }

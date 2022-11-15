@@ -1,157 +1,67 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import pokemon from "/home/hiramr97/sei/projects/pokemon-unite-tierlist/tier-list/src/Components/Data/pictures.json";
 
-const TopLane = () => {
+const TopLane = ({ pokemon }) => {
   return (
     <div className="backgroundColor">
       <h1 className="Lane">Top Lane</h1>
       <h1 className="Container-Pokemon-Tier">
-      <p className="letterTier">S</p>
-        <Link>
-          <img className="Pokemon" src={pokemon[2].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[4].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[10].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[11].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[25].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[34].image} />
-        </Link>
+        <p className="letterTier">S</p>
+        <img className="Pokemon" src={pokemon[2].image} />
+        <img className="Pokemon" id={pokemon} src={pokemon[4].image} />
+        <img className="Pokemon" src={pokemon[10].image} />
+        <img className="Pokemon" src={pokemon[11].image} />
+        <img className="Pokemon" src={pokemon[25].image} />
+        <img className="Pokemon" src={pokemon[34].image} />
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <p className="letterTier">A</p>
-        <Link>
-          <img className="Pokemon" src={pokemon[1].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[9].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[13].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[14].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[16].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[18].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[23].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[26].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[28].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[29].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[31].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[33].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[35].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[38].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[40].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[41].image} />
-        </Link>
+        <p className="letterTier">A</p>
+        <img className="Pokemon" src={pokemon[1].image} />
+        <img className="Pokemon" src={pokemon[9].image} />
+        <img className="Pokemon" src={pokemon[13].image} />
+        <img className="Pokemon" src={pokemon[14].image} />
+        <img className="Pokemon" src={pokemon[16].image} />
+        <img className="Pokemon" src={pokemon[18].image} />
+        <img className="Pokemon" src={pokemon[23].image} />
+        <img className="Pokemon" src={pokemon[26].image} />
+        <img className="Pokemon" src={pokemon[28].image} />
+        <img className="Pokemon" src={pokemon[29].image} />
+        <img className="Pokemon" src={pokemon[31].image} />
+        <img className="Pokemon" src={pokemon[33].image} />
+        <img className="Pokemon" src={pokemon[35].image} />
+        <img className="Pokemon" src={pokemon[38].image} />
+        <img className="Pokemon" src={pokemon[40].image} />
+        <img className="Pokemon" src={pokemon[41].image} />
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <p className="letterTier">B</p>
-        <Link>
-          <img className="Pokemon" src={pokemon[3].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[5].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[8].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[12].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[17].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[20].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[24].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[30].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[32].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[37].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[43].image} />
-        </Link>
+        <p className="letterTier">B</p>
+        <img className="Pokemon" src={pokemon[3].image} />
+        <img className="Pokemon" src={pokemon[5].image} />
+        <img className="Pokemon" src={pokemon[8].image} />
+        <img className="Pokemon" src={pokemon[12].image} />
+        <img className="Pokemon" src={pokemon[17].image} />
+        <img className="Pokemon" src={pokemon[20].image} />
+        <img className="Pokemon" src={pokemon[24].image} />
+        <img className="Pokemon" src={pokemon[30].image} />
+        <img className="Pokemon" src={pokemon[32].image} />
+        <img className="Pokemon" src={pokemon[37].image} />
+        <img className="Pokemon" src={pokemon[43].image} />
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <p className="letterTier">C</p>
-        <Link>
-          <img className="Pokemon" src={pokemon[6].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[7].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[15].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[22].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[27].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[39].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[42].image} />
-        </Link>
+        <p className="letterTier">C</p>
+        <img className="Pokemon" src={pokemon[6].image} />
+        <img className="Pokemon" src={pokemon[7].image} />
+        <img className="Pokemon" src={pokemon[15].image} />
+        <img className="Pokemon" src={pokemon[22].image} />
+        <img className="Pokemon" src={pokemon[27].image} />
+        <img className="Pokemon" src={pokemon[39].image} />
+        <img className="Pokemon" src={pokemon[42].image} />
       </h1>
       <h1 className="Container-Pokemon-Tier">
-      <p className="letterTier">D</p>
-        <Link>
-          <img className="Pokemon" src={pokemon[0].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[19].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[21].image} />
-        </Link>
-        <Link>
-          <img className="Pokemon" src={pokemon[36].image} />
-        </Link>
+        <p className="letterTier">D</p>
+        <img className="Pokemon" src={pokemon[0].image} />
+        <img className="Pokemon" src={pokemon[19].image} />
+        <img className="Pokemon" src={pokemon[21].image} />
+        <img className="Pokemon" src={pokemon[36].image} />
       </h1>
     </div>
   );

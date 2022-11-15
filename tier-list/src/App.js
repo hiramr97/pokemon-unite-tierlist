@@ -7,19 +7,21 @@ import TopLane from "./Components/Lanes/Top Lane/Top-Lane";
 import CenterLane from "./Components/Lanes/Center Lane/Center-Lane";
 import BottomLane from "./Components/Lanes/Bottom Lane/Bottom-Lane";
 import Description from "./Components/Description/Description";
-import data from "./Components/Data/data.json"
+import data from "./Components/Data/data.json";
+import pokemon from "./Components/Data/pictures.json";
 
 function App() {
   const handleClick = (e) => {
+    console.log(e.target)
   }
   return (
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage handleClick={handleClick}/>} />
-        <Route path="/top-lane" element={<TopLane />} />
-        <Route path="/center-lane" element={<CenterLane/>}/>
-        <Route path="/bottom-lane" element={<BottomLane/>}/>
+        <Route path="/" element={<Homepage handleClick={handleClick} pokemon={pokemon}/>} />
+        <Route path="/top-lane" element={<TopLane handleClick={handleClick} pokemon={pokemon} />} />
+        <Route path="/center-lane" element={<CenterLane pokemon={pokemon}/>}/>
+        <Route path="/bottom-lane" element={<BottomLane pokemon={pokemon}/>}/>
         <Route path="/description/:id" element={<Description/>}/>
       </Routes>
     </div>
