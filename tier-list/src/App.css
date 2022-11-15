@@ -54,7 +54,17 @@ a {
   height: 100px;
   width: 100px;
 }
-.laneStyling {
-  position: absolute;
-  right: 0;
+.descriptionStyling {
+  text-align: right;
+  margin-right: 50px;
+}
+.items {
+  height: 100px;
+  width: 100px;
+}
+.name {
+  text-align: center;
+}
+.Container-Build {
+  display: inline-flex;
 }

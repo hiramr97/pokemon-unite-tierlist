@@ -1,9 +1,9 @@
 import React from "react";
 import data from "../Data/data.json";
 
-const Build = () => {
+const Build2 = () => {
   console.log(data.builds[0].held_items);
-  if (data.builds[0].held_items[0] === "Aoes Cookie") {
+  if (data.builds[0].held_items[2] === "Aoes Cookie") {
     return (
       <div className="">
         <h3></h3>
@@ -13,7 +13,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Assault Vest") {
+  } else if (data.builds[0].held_items[2] === "Assault Vest") {
     return (
       <div className="">
         <h3></h3>
@@ -23,7 +23,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Attack Weight") {
+  } else if (data.builds[0].held_items[2] === "Attack Weight") {
     return (
       <div className="">
         <h3></h3>
@@ -33,7 +33,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Buddy Barrier") {
+  } else if (data.builds[0].held_items[2] === "Buddy Barrier") {
     return (
       <div className="">
         <h3></h3>
@@ -43,7 +43,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Choice Specs") {
+  } else if (data.builds[0].held_items[2] === "Choice Specs") {
     return (
       <div className="">
         <h3></h3>
@@ -53,7 +53,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Energy Amplifier") {
+  } else if (data.builds[0].held_items[2] === "Energy Amplifier") {
     return (
       <div className="">
         <h3></h3>
@@ -63,7 +63,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Exp Share") {
+  } else if (data.builds[0].held_items[2] === "Exp Share") {
     return (
       <div className="">
         <h3></h3>
@@ -73,7 +73,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Float Stone") {
+  } else if (data.builds[0].held_items[2] === "Float Stone") {
     return (
       <div className="">
         <h3></h3>
@@ -83,7 +83,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Focus Band") {
+  } else if (data.builds[0].held_items[2] === "Focus Band") {
     return (
       <div className="">
         <h3></h3>
@@ -93,7 +93,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Leftovers") {
+  } else if (data.builds[0].held_items[2] === "Leftovers") {
     return (
       <div className="">
         <h3></h3>
@@ -103,7 +103,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Muscle Band") {
+  } else if (data.builds[0].held_items[2] === "Muscle Band") {
     return (
       <div className="">
         <h3></h3>
@@ -113,7 +113,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Razor Claw") {
+  } else if (data.builds[0].held_items[2] === "Razor Claw") {
     return (
       <div className="">
         <h3></h3>
@@ -123,7 +123,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Rocky Helmet") {
+  } else if (data.builds[0].held_items[2] === "Rocky Helmet") {
     return (
       <div className="">
         <h3></h3>
@@ -133,7 +133,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Scope Lens") {
+  } else if (data.builds[0].held_items[2] === "Scope Lens") {
     return (
       <div className="">
         <h3></h3>
@@ -143,7 +143,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Score Shield") {
+  } else if (data.builds[0].held_items[2] === "Score Shield") {
     return (
       <div className="">
         <h3></h3>
@@ -153,7 +153,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Shell Bell") {
+  } else if (data.builds[0].held_items[2] === "Shell Bell") {
     return (
       <div className="">
         <h3></h3>
@@ -163,7 +163,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Sp. Atk Specs") {
+  } else if (data.builds[0].held_items[2] === "Sp. Atk Specs") {
     return (
       <div className="">
         <h3></h3>
@@ -173,7 +173,7 @@ const Build = () => {
         />
       </div>
     );
-  } else if (data.builds[0].held_items[0] === "Weakness Policy") {
+  } else if (data.builds[0].held_items[2] === "Weakness Policy") {
     return (
       <div className="">
         <h3></h3>
@@ -195,4 +195,4 @@ const Build = () => {
     );
   }
 };
-export default Build;
+export default Build2;
