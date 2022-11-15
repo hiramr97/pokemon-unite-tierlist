@@ -2,7 +2,6 @@ import React from "react";
 import data from "../Data/data.json";
 
 const Build = () => {
-  console.log(data.builds[0].held_items);
   if (data.builds[0].held_items[0] === "Aoes Cookie") {
     return (
       <div className="">

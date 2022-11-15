@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 import Header from "./Components/Header/Header";
@@ -11,16 +10,18 @@ import Description from "./Components/Description/Description";
 import data from "./Components/Data/data.json"
 
 function App() {
+  const handleClick = (e) => {
+  }
   return (
     <div>
       <Header />
-      <Description/>
-      {/* <Routes>
-        <Route path="/" element={<Homepage />} />
+      <Routes>
+        <Route path="/" element={<Homepage handleClick={handleClick}/>} />
         <Route path="/top-lane" element={<TopLane />} />
         <Route path="/center-lane" element={<CenterLane/>}/>
         <Route path="/bottom-lane" element={<BottomLane/>}/>
-      </Routes> */}
+        <Route path="/description/:id" element={<Description/>}/>
+      </Routes>
     </div>
   );
 }
