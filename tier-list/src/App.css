@@ -50,3 +50,11 @@ a {
 }
 .backgroundColor {
 }
+.lane {
+  height: 100px;
+  width: 100px;
+}
+.laneStyling {
+  position: absolute;
+  right: 0;
+}

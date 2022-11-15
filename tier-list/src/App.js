@@ -7,17 +7,20 @@ import { Link, Route, Routes } from "react-router-dom";
 import TopLane from "./Components/Lanes/Top Lane/Top-Lane";
 import CenterLane from "./Components/Lanes/Center Lane/Center-Lane";
 import BottomLane from "./Components/Lanes/Bottom Lane/Bottom-Lane";
+import Description from "./Components/Description/Description";
+import data from "./Components/Data/data.json"
 
 function App() {
   return (
     <div>
       <Header />
-      <Routes>
+      <Description/>
+      {/* <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/top-lane" element={<TopLane />} />
         <Route path="/center-lane" element={<CenterLane/>}/>
         <Route path="/bottom-lane" element={<BottomLane/>}/>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
