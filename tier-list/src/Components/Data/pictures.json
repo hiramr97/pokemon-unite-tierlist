@@ -1,15 +1,11 @@
 [
  {
-    "name": "Absol", 
+    "name": "Absol",  
     "image": "https://img.game8.co/3408910/34f0c5d8da01304daeb9ee9160182e83.png/show"
   },
   {
     "name": "Aegislash",
     "image": "https://img.game8.co/3480521/a4f51eac8541ccda959b8e9f7fd96703.png/show"
-  },
-  {
-    "name": "Alolan Ninetails",
-    "image": "https://img.game8.co/3408914/43f35916cb971fa3630ec0498d733b38.png/show"
   },
   {
     "name": "Azumarill",
@@ -24,20 +20,12 @@
     "image": "https://img.game8.co/3408923/3893729f8581f52e07ac5cb2c6caaaee.png/show"
   },
   {
-    "name": "Buzzwole",
-    "image": "https://img.game8.co/3556724/de369351425bdd25080e7510583a2315.png/show"
-  },
-  {
     "name": "Charizard",
     "image": "https://img.game8.co/3408920/ed4ca1b2390c2891e8a1b53012b89ad5.png/show"
   },
   {
     "name": "Cinderace",
     "image": "https://img.game8.co/3408921/3116d247d8c6d7b1070351ba0348b215.png/show"
-  },
-  {
-    "name": "Clefable",
-    "image": "https://img.game8.co/3579578/90f28d398c79b5dc7c7725b8f2d2f656.png/show"
   },
   {
     "name": "Cramorant",
@@ -50,14 +38,6 @@
   {
     "name": "Decidueye",
     "image": "https://img.game8.co/3450162/60d614359361252346bfbf9482bcf450.png/show"
-  },
-  {
-    "name": "Delphox",
-    "image": "https://img.game8.co/3535643/624f332e5d5d7001f6f214957c46e81a.png/show"
-  },
-  {
-    "name": "Dodrio",
-    "image": "https://img.game8.co/3581133/47880caa5d061550b077534c3319bdf4.png/show"
   },
   {
     "name": "Dragonite",
@@ -88,10 +68,6 @@
     "image": "https://img.game8.co/3408916/6789fdcccb78ebb02bfb5d4f211bb761.png/show"
   },
   {
-    "name": "Glaceon",
-    "image": "https://img.game8.co/3549540/ffe8e6d93ced167f5f358f22c6593f63.png/show"
-  },
-  {
     "name": "Greedent",
     "image": "https://img.game8.co/3436922/80f16f8d0398dde3982981520c53007e.png/show"
   },
@@ -116,20 +92,16 @@
     "image": "https://img.game8.co/3425561/5ebe96da72afe72274723d73077632ee.png/show"
   },
   {
-    "name": "Mew",
-    "image": "https://img.game8.co/3568507/7cc85b48563071b66f1c9a884ff8cb9f.png/show"
+    "name": "Mr.Mime",
+    "image": "https://img.game8.co/3408925/d3271feb41363ab0ec29f1fde5e37609.png/show"
   },
   {
-    "name": "Mr.mime",
+    "name": "Ninetails",
     "image": "https://img.game8.co/3408925/d3271feb41363ab0ec29f1fde5e37609.png/show"
   },
   {
     "name": "Pikachu",
     "image": "https://img.game8.co/3408917/faf7fc1155634da35efb371861d43e09.png/show"
-  },
-  {
-    "name": "Scizor",
-    "image": "https://img.game8.co/3587327/255870f5aa3c65493c45572687e78f80.png/show"
   },
   {
     "name": "Slowbro",
@@ -156,10 +128,6 @@
     "image": "https://img.game8.co/3456947/d548f573a86ff0776adebd5f940408f5.png/show"
   },
   {
-    "name": "Tyranitar",
-    "image": "https://img.game8.co/3562398/58b6d47af0a6bd89882381201ba5ada9.png/show"
-  },
-  {
     "name": "Venusaur",
     "image": "https://img.game8.co/3408931/f6bddcfbe8ecf4cba0b037f39c31a87a.png/show"
   },
@@ -170,9 +138,5 @@
   {
     "name": "Zeraora",
     "image": "https://img.game8.co/3408933/c39cf9607996f8845ecdf1602ed7bef2.png/show"
-  },
-  {
-    "name": "Zoroark",
-    "image": "https://img.game8.co/3601736/8e0ac36da2604fdcd0d053e54dbaa15d.png/show"
   }
 ]

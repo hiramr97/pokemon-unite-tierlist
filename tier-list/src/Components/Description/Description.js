@@ -11,7 +11,7 @@ const Description = () => {
   const { id } = useParams();
   const newData = Object.values(data);
   const pictureData = data.id
-  console.log(pictureData)
+  console.log(newData)
   if (newData[2] === id) {
     return (
       <div>

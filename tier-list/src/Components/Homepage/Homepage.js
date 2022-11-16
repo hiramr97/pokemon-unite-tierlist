@@ -8,14 +8,8 @@ const Homepage = ({ pokemon }) => {
       <Link to={`/description/${pictures.name}`}>
         <img className="Pokemon" id={pictures.name} src={pictures.image} />
       </Link>
-      
-    ); 
-  }
-  );
-  return (
-    <div className="Container-Pokemon">
-      {data}
-    </div>
-  );
+    );
+  });
+  return <div className="Container-Pokemon">{data}</div>;
 };
 export default Homepage;
