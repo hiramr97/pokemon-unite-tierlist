@@ -5,7 +5,6 @@ const Build2 = () => {
   if (data.builds[0].held_items[2] === "Aoes Cookie") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Aeos+Cookie.png"
@@ -15,7 +14,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Assault Vest") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Assault+Vest.png"
@@ -25,7 +23,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Attack Weight") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Attack+Weight.png"
@@ -35,7 +32,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Buddy Barrier") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Buddy+Barrier.png"
@@ -45,7 +41,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Choice Specs") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Choice+Specs.png"
@@ -55,7 +50,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Energy Amplifier") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Energy+Amplifier.png"
@@ -65,7 +59,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Exp Share") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Exp+Share.png"
@@ -75,7 +68,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Float Stone") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Float+Stone.png"
@@ -85,7 +77,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Focus Band") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Focus+Band.png"
@@ -95,7 +86,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Leftovers") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Leftovers.png"
@@ -105,7 +95,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Muscle Band") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Muscle+Band.png"
@@ -115,7 +104,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Razor Claw") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Razor+Claw.png"
@@ -125,7 +113,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Rocky Helmet") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Rocky+Helmet.png"
@@ -135,7 +122,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Scope Lens") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Scope+Lens.png"
@@ -145,7 +131,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Score Shield") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Score+Shield.png"
@@ -155,7 +140,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Shell Bell") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Shell+Bell.png"
@@ -165,7 +149,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Sp. Atk Specs") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Sp.+Atk+Specs.png"
@@ -175,7 +158,6 @@ const Build2 = () => {
   } else if (data.builds[0].held_items[2] === "Weakness Policy") {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Weakness+Policy.png"
@@ -185,7 +167,6 @@ const Build2 = () => {
   } else {
     return (
       <div className="">
-        <h3></h3>
         <img
           className="items"
           src="https://d275t8dp8rxb42.cloudfront.net/items/held/Wise+Glasses.png"
