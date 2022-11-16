@@ -86,7 +86,7 @@ a {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .DescriptionPokemon {
     height: 250px;
     width: 250px;
@@ -94,7 +94,5 @@ a {
     margin-top: 0;
     display: block;
     margin: 0 auto;
-
-
   }
 }
