@@ -8,7 +8,7 @@ const Header = () => {
         <Link to="/" className="Logo-Link">
           <img
             className="Logo"
-            src="https://play-lh.googleusercontent.com/l6iBBhrah3mNhvcjZgZBwICAF5uu3KjorU4pq-eMOxYgT_L_TnpzT7a3TmmdxaMMgbUy"
+            src="https://play-lh.googleusercontent.com/l6iBBhrah3mNhvcjZgZBwICAF5uu3KjorU4pq-eMOxYgT_L_TnpzT7a3TmmdxaMMgbUy" alt="pokemon unite logo"
           />
         </Link>
         <h1>Pokemon Unite Tier List</h1>

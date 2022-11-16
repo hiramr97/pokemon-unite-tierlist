@@ -1,13 +1,13 @@
 import React from "react";
 import data from "../Data/data.json";
 
-const Build1 = () => {
+const Build2 = () => {
   if (data.builds[0].held_items[1] === "Aoes Cookie") {
     return (
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Aeos+Cookie.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Aeos+Cookie.png" alt="Aoes Cookie"
         />
       </div>
     );
@@ -16,7 +16,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Assault+Vest.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Assault+Vest.png" alt="Assualt Vest"
         />
       </div>
     );
@@ -25,7 +25,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Attack+Weight.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Attack+Weight.png" alt="Atack Weight"
         />
       </div>
     );
@@ -34,7 +34,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Buddy+Barrier.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Buddy+Barrier.png" alt="Buddy Barrier"
         />
       </div>
     );
@@ -43,7 +43,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Choice+Specs.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Choice+Specs.png" alt="Choice Specs"
         />
       </div>
     );
@@ -52,7 +52,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Energy+Amplifier.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Energy+Amplifier.png" alt="Energy Amplifier"
         />
       </div>
     );
@@ -61,7 +61,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Exp+Share.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Exp+Share.png" alt="Exp Share"
         />
       </div>
     );
@@ -70,7 +70,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Float+Stone.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Float+Stone.png" alt="Float Stone"
         />
       </div>
     );
@@ -79,7 +79,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Focus+Band.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Focus+Band.png" alt="Focus Band"
         />
       </div>
     );
@@ -88,7 +88,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Leftovers.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Leftovers.png" alt="Leftovers"
         />
       </div>
     );
@@ -97,7 +97,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Muscle+Band.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Muscle+Band.png" alt="Muscle Band"
         />
       </div>
     );
@@ -106,7 +106,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Razor+Claw.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Razor+Claw.png" alt="Razor Claw"
         />
       </div>
     );
@@ -115,7 +115,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Rocky+Helmet.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Rocky+Helmet.png" alt="Rocky Helmet"
         />
       </div>
     );
@@ -124,7 +124,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Scope+Lens.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Scope+Lens.png" alt="Scope Lens"
         />
       </div>
     );
@@ -133,7 +133,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Score+Shield.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Score+Shield.png" alt="Score Shield"
         />
       </div>
     );
@@ -142,7 +142,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Shell+Bell.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Shell+Bell.png" alt="Shell Bell"
         />
       </div>
     );
@@ -151,7 +151,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Sp.+Atk+Specs.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Sp.+Atk+Specs.png" alt="Sp. Atk Specs"
         />
       </div>
     );
@@ -160,7 +160,7 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Weakness+Policy.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Weakness+Policy.png" alt="Weakness Policy"
         />
       </div>
     );
@@ -169,10 +169,10 @@ const Build1 = () => {
       <div className="">
         <img
           className="items"
-          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Wise+Glasses.png"
+          src="https://d275t8dp8rxb42.cloudfront.net/items/held/Wise+Glasses.png" alt="Wise Glasses"
         />
       </div>
     );
   }
 };
-export default Build1;
+export default Build2;

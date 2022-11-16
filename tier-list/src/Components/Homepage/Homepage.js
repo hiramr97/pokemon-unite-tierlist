@@ -5,7 +5,7 @@ const Homepage = ({ pokemon }) => {
   const data = pokemon.map((pictures) => {
     return (
       <Link to={`/description/${pictures.name}`}>
-        <img className="Pokemon" id={pictures.name} src={pictures.image} />
+        <img className="Pokemon" id={pictures.name} src={pictures.image} alt={pictures.name}/>
       </Link>
     );
   });
