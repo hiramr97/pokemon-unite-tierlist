@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import data from "../Data/data.json";
 import Lane from "./Lane";
 import Build from "./Build";
@@ -10,8 +10,7 @@ import { useParams } from "react-router-dom";
 const Description = () => {
   const { id } = useParams();
   const newData = Object.values(data);
-  const pictureData = data.id
-  console.log(newData)
+  const pictureData = +data.id+ - 1
   if (newData[2] === id) {
     return (
       <div>

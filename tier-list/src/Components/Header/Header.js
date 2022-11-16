@@ -1,8 +1,5 @@
 import React from "react";
-import "../Header/Header.css";
-import { Link, Route, Routes } from "react-router-dom";
-import Homepage from "../Homepage/Homepage";
-import TopLane from "../Lanes/Top Lane/Top-Lane";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (

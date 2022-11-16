@@ -1,5 +1,4 @@
 import React from "react";
-import "../Homepage/Homepage.css";
 import { Link } from "react-router-dom";
 
 const Homepage = ({ pokemon }) => {
