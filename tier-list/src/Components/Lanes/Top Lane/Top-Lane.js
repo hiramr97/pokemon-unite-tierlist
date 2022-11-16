@@ -1,7 +1,6 @@
 import React from "react";
 
 const TopLane = ({ pokemon }) => {
-  console.log(pokemon)
   return (
     <div className="backgroundColor">
       <h1 className="Lane">Top Lane</h1>
