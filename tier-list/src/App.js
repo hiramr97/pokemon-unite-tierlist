@@ -7,6 +7,7 @@ import CenterLane from "./Components/Lanes/Center Lane/Center-Lane";
 import BottomLane from "./Components/Lanes/Bottom Lane/Bottom-Lane";
 import Description from "./Components/Description/Description";
 import pokemon from "./Components/Data/pictures.json";
+import React from "react";
 
 function App() {
   return (
