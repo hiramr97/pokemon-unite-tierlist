@@ -28,7 +28,7 @@ const Description = () => {
           <Build1 />
           <Build2 />
         </div>
-        <img className="DescriptionPokemon" src={pictures[pictureData].image}/>
+        <img className="DescriptionPokemon" src={pictures[pictureData].image} alt=""/>
       </div>
     );
   }
