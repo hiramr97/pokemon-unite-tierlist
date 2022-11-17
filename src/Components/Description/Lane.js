@@ -1,7 +1,6 @@
 import React from "react";
-import data from "../Data/data.json";
 
-const Lane = () => {
+const Lane = ({data}) => {
   if (data.builds[0].lane === "Top") {
     return (
       <div className="descriptionStyling">
@@ -12,7 +11,7 @@ const Lane = () => {
         />
       </div>
     );
-  } else if (data.builds[0].lane === "Center") {
+  } else if (data.builds[0].lane === "Middle") {
     return (
       <div className="descriptionStyling">
         <h3>Recommended Lane</h3>

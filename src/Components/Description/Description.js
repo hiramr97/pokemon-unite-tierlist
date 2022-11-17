@@ -40,10 +40,11 @@ const Description = () => {
   let newData = Object.values(data);
   const pictureData = +data.id + -1;
   if (newData[2] === id) {
+    console.log(data)
     return (
       <div>
         <h1 className="name">{data.display_name}</h1>
-        <Lane />
+        <Lane data={data}/>
         <h3 className="descriptionStyling">Role</h3>
         <h3 className="descriptionStyling">{data.tags.role}</h3>
         <h3 className="descriptionStyling">Difficulty</h3>
