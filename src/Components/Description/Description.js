@@ -40,7 +40,6 @@ const Description = () => {
   let newData = Object.values(data);
   const pictureData = +data.id + -1;
   if (newData[2] === id) {
-    console.log(data)
     return (
       <div>
         <h1 className="name">{data.display_name}</h1>
