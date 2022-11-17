@@ -50,9 +50,9 @@ const Description = () => {
         <h3 className="descriptionStyling">{data.tags.difficulty}</h3>
         <h3 className="descriptionStyling">Recommended Build</h3>
         <div className="Container-Build">
-          <Build />
-          <Build1 />
-          <Build2 />
+          <Build data={data}/>
+          <Build1 data={data}/>
+          <Build2 data={data}/>
         </div>
         <img
           className="DescriptionPokemon"

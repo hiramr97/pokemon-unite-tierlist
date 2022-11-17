@@ -1,7 +1,6 @@
 import React from "react";
-import data from "../Data/data.json";
 
-const Build2 = () => {
+const Build2 = ({data}) => {
   if (data.builds[0].held_items[0] === "Aoes Cookie") {
     return (
       <div className="">
