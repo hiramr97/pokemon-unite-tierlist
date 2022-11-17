@@ -14,7 +14,7 @@ const Description = () => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "ad13810b9emsh0ac23710be4e1c6p1c0d9fjsn5c53b41e114a",
+      "X-RapidAPI-Key": "YOUR_API_KEY",
       "X-RapidAPI-Host": "pokemon-unite-pokemons.p.rapidapi.com",
     },
   };

@@ -9,6 +9,8 @@ import Description from "./Components/Description/Description";
 import pokemon from "./Components/Data/pictures.json";
 import React from "react";
 
+
+
 function App() {
   return (
     <div>
