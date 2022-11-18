@@ -9,7 +9,7 @@ A tier list based off of the game "Pokemon Unite". It has tiers for each lane an
 
 - [Github Repo](https://github.com/hiramr97/pokemon-unite-tierlist)
 - [Deployed Site](https://pokemon-unite-tierlist.vercel.app/)
-- [Demo Recording]()
+- [Demo Recording](https://youtu.be/98SLXo_2v94)
 
 ## Wireframes
 
