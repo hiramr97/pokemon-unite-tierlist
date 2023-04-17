@@ -21,7 +21,7 @@ const Description = () => {
 
   const fetchPokemon = () => {
     fetch(
-      `https://pokemon-unite-pokemons.p.rapidapi.com/pokemons/${id}`,
+      `https://pokemon-unite-pokemons.p.rapidapi.com/pokemon/${id}`,
       options
     )
       .then((response) => response.json())
